@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* contendores principal */
+
+body{
+    background: gainsboro;
+    flex-basis: 1600px;
+    height: 4561px;;
+}
+#containerFlex{
+margin: 0 auto;
+flex-basis: 1500px;
+height: 4561px;
+border: 2px dashed red;
+}
+/* contendores principal */
+
+h1{
+    flex-basis: 566px;
+    height: 160px;
+    color: orange;
+    font-size: 70px;
+    font-weight: 500;
+}
+/* contendores principales y secundarios de navegacion*/
+nav{
+flex-basis: 1440px;
+height: 72px;
+background: #3e3c3c;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav h4{
+    flex-basis: 108px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+   letter-spacing: 2px;
+}
+nav ul {
+    display: flex;
+    flex-basis: 300px;
+    height: 40px;
+    color:  white;
+    list-style: none;
+    gap: 10px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+/* fin de los contendores principales y secundarios de navegacion*/
+
+/* contendores principales y secundarios del encabezado*/
+header{
+    display: flex;
+    align-items: center;
+    flex-basis: 1440px;
+    height: 870px;
+    background:#1c1a19;
+}
+
+
+.rrss ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 141px;
+    gap: 15px;
+    align-items: center;
+}
+
+.rrss ul li img{
+    width: 20px;
+    height: 20px;
+    background:#1c1a19;
+}
+.header article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+      flex-basis: 566px;
+    height: 739px;
+}
+/* .header article h1{
+    flex-basis: 566px;
+    height: 160px;
+    color: orange;
+    font-size: 70px;
+    font-weight: 500;
+} */
+
+
+.header article h3{
+    flex-basis: 566px;
+    height: 24px;
+    font-size: 30px;
+    color: white;
+    align-self: center;
+}
+.header article p{
+    flex-basis: calc(566px -200px);
+    height: 123px;
+    color: white;
+    align-self: self-start;
+    font-size: 22px;
+}
+.header img{
+    align-self: flex-start;
+    flex-basis: 563px;
+    height: 769px;
+}
+/* fin de contendores principales y secundarios del encabezado*/
+/* contendores principales y secundarios del portafolio*/
+#works{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1204px;
+    height: 1805px;
+    background: white;
+}
+#titulo h3{
+    flex-basis: 315px;
+    height: 52px;
+    font-size: xx-large;
+    line-height: 52px;
+    padding-left: 25px;
+    color: #091e42;
+}
+
+.artoP{
+    display: flex;
+
+    flex-basis: 1156px;
+    height: 448px;  
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+
+.textoP{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content:center ;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 448px;
+    height: 348;
+    gap: 24px;
+    font-size: 22px;
+}
+
+.artoP img{
+    flex-basis:calc(684px - 25px);
+    height: 448px;
+    padding-left: 25px;
+}
+
+.artos{
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 1155px;
+    height: 944;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+.arto{
+    display: flex;
+    flex-flow: row wrap;
+}
+.arto img{
+    flex-basis: 369px;
+    height: 435px;
+    border: 1px solid black;
+}
+
+.arto p{
+    flex-basis: 337px;
+    height: 72px; 
+}
+
+.arto h3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+/* fin de contendores principales y secundarios del portafolio*/
+/* contendores principales y secundarios de about me*/
+#aboutme{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1440px;
+    height: 1195px;
+    background: #262626;
+}
+
+.about{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1440px;
+    height: 1195px;
+
+}
+.about p{
+    flex-basis: calc(566px -200px);
+    height: 123px;
+    color: white;
+    align-self: self-start;
+    font-size: 22px;
+}
+/* fin de contendores principales y secundarios de about me*/
+/* contendores principales y secundarios de contact y formulario*/
+#contact{
+    width: 1440px;
+    height: 72px;
+    background: white;
+    border-bottom: 1px solid #dfe1e6;
+}
+
+footer{
+    width: 1440px;
+    height: 72px;
+    background: white;
+}

@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* TAMAŃO DE LETRAS Y COLORES*/
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    background: rgb(230, 227, 227);
+    color: #344563;
+}
+
+h1{
+    font-weight: 900;
+    font-size: xx-large;
+}
+h2
+{
+    font-weight:900;
+    color: #091e42;
+}
+.connect{
+    color: #7f8cff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:xx-small;
+}
+nav h5{
+    color: #6070ff;
+}
+form h2{
+    color: white;  
+}
+
+/* CONTAINER*/
+#container{
+    width: 1440px;
+    height: 5125px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap:  wrap;
+    background: #f4f5f7;
+    
+}
+
+/*BARRA DE NAVEGACION*/
+#navegacionP{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    line-height: 72px;
+    background: white;
+
+}
+#navegacionP h4{
+    color: #6070ff;
+    font-weight: 400;
+    font-size: larger;
+    margin-left: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px; 
+    margin-right: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #344563;
+}
+/* FIN BARRA DE NAVEGACION*/
+/* INICIO DE ENCABEZADO*/
+header{
+   background: white;
+   width: calc(100%-200px);
+   height: 650px;
+   padding-left: 150px;
+   border-radius: 0px 0px 0px 150px;
+}
+#bgheader{
+background: url(../IMG/index1/Header\ bg@2x.png); 
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: calc(100%-200px);
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.encabezado{
+    width: 880px;
+    height: 268px;
+    font-weight: 200;
+    
+}
+.encabezado p{
+    margin-top: 10px;
+    font-size: larger;
+}
+.rrss {
+    list-style: none;
+    display: flex;
+    width: 172px;
+    gap: 15px;
+}
+/* INICIO DE ENCABEZADO*/
+
+/* PORTAFOLIO*/
+.portafolio{
+    height: 3094px;
+    width: 1440px; 
+ background: #f4f5f7;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-content: space-evenly;
+ align-items: space-evenly;
+}
+.articleP{
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    background: white;
+    border: 1px solid #dfe1e6;
+    border-radius: 20px;
+}
+.imgArtos{
+    width:calc(50%-30px);
+    height: 448px;  
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-top: 25px; 
+    margin-bottom: 10px; 
+
+}
+
+
+.arto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: calc(50%-30px);
+    height: 445px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-top: 25px; 
+    margin-bottom: 10px; 
+}
+.arto h4{
+    font-weight:400;
+}
+.arto ul{
+    display: flex;
+    gap: 30px;
+}
+.arto ul li{
+    color: #c1c7dd
+    }
+
+.arto ul li span{
+color: #6b778c;
+font-weight:300;
+}
+
+.listabt{
+    height: 24px;
+    width: auto;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background:  #ebebff;
+    border-radius: 10px;
+    color: #6070ff;
+    text-decoration: none;
+}
+.btGrande{
+    height: 48px;
+    width: 20%;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 10px;
+    color: #396df2;
+    text-decoration: none; 
+    line-height: 48px;
+}
+
+/* FIN PORTAFOLIO*/
+
+/*SECTION ABOUT ME*/
+#aboutme{
+   width: 1440px;
+   height: 655px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+  align-items: center;
+   background: white;
+    border-radius:  0px 150px 0px 0px;
+}
+
+.articleA{
+    width: 447px;
+    height: 311px;
+    margin-left: 50px;
+}
+
+.skills{
+    width: 384px;
+    height: 360px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+/*FIN DE SECTION ABOUT ME*/
+
+#contact{
+    background: url(../IMG/index1/bkgContact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 535px; 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 0px 0px 0px;
+}
+
+
+
+
+form{
+    width: 801px;
+    height: 577px;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+} 
+
+form p{
+width: 450px;
+padding: 10px;
+text-align: center;
+font-weight: 200;
+}
+form input{
+    width: 350px;
+    height: 40px;
+}
+
+form textarea{
+    width: 350px;
+} 
+
+#btenviar{
+    width: 142px;
+    height: 48px;
+    border-radius: 10px;
+    color: #606aff;
+    background: white;
+    font-weight: 500;
+    border: 1px solid white;
+}
+
+/*DETAILS*/
