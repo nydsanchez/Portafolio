@@ -90,7 +90,7 @@ header{
    border-radius: 0px 0px 0px 150px;
 }
 #bgheader{
-background: url(../IMG/index1/Header\ bg@2x.png); 
+background: url(../img/Header\ bg@2x.png); 
    background-size: contain;
    background-repeat: no-repeat;
    width: calc(100%-200px);
@@ -228,7 +228,7 @@ font-weight:300;
 /*FIN DE SECTION ABOUT ME*/
 
 #contact{
-    background: url(../IMG/index1/bkgContact.png);
+    background: url(../img/bkgContact.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 1440px;
